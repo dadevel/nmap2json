@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nmap2json"
+version = "0.0.1"
+description = ""
+authors = ["dadevel"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nmap2json"}]
+
+[tool.poetry.scripts]
+nmap2json = "nmap2json.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
